@@ -1,14 +1,15 @@
 # Pure-Lambda-Calculus-in-Perl
-Pure Lambda Calculs in Perl
+### Pure Lambda Calculs in Perl
+An Implementation of Pure Lambda Calculus based upon the book, `An Introduction to Functional Programming through Lambda Calculus` by Greg Michaelson (https://books.google.co.kr/books/about/An_Introduction_to_Functional_Programmin.html?id=g)
 
-- Features:  
+### Features
   - substitution occurs at run-time instead of statically  
   - function application by juxtaposition w/o parentheses  
   - parentheses used for grouping only  
   - function definitions in curried form  
   - more descriptive error messages by using exception handling  
 
-- For example,
+### For example,
 ```
 (x.x x.x)   x.x
 (x.x s.(s s))   s.(s s)
