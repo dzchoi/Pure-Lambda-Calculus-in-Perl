@@ -3,6 +3,10 @@
 An Implementation of Pure Lambda Calculus based upon the book, `An Introduction to Functional Programming through Lambda Calculus` by Greg Michaelson (https://books.google.co.kr/books/about/An_Introduction_to_Functional_Programmin.html?id=g)
 
 ### Features
+  - three kinds of expressions (also called terms) are supported:
+    - x (variables)
+    - x.e (abstractions)
+    - e<sub>1</sub> e<sub>2</sub> (application)
   - substitution occurs at run-time instead of statically  
   - function application by juxtaposition w/o parentheses  
   - parentheses used for grouping only  
